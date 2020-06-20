@@ -80,7 +80,6 @@ body {
     font-size: 20px;
     padding:0 8px;
 }
-
 .navbar .list ul li a {
     text-decoration: none;
     color: #000;
@@ -88,7 +87,6 @@ body {
     padding: 20px 0px;
 
 }
-
 
 .salaryBill {
     width: 70%;
@@ -111,6 +109,7 @@ body {
 .form1 {
     align-content: center;
 }
+
 input:not(:nth-last-child(1)){
   display: flex;
   background: transparent;
@@ -130,7 +129,6 @@ input:nth-last-child(1) {
     font-size: 20px;
     justify-content: center;
 }
-
 input:focus::-webkit-input-placeholder{
   color: transparent;
 }
@@ -147,8 +145,6 @@ input[placeholder]::-webkit-input-placeholder{
   transition: 0.4s;
   font-size: 26px;
 }
-
-
 
 .billContainer {
     background-color: #fff;
