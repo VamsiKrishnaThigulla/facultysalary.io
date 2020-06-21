@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="signup.css">
+        <script src="signup.js" charset="UTF-8" defer></script>
+    </head>
+    <body>
+        <div id=bck>
+            <div id='box'>
+                <h1>SIGN UP</h1>
+                <form name="signup" action="signup.php" method="post" >
+                    <input type="text" id="Username" name="Username" placeholder="Username" required maxlength="25" >
+                    <b><p id='e1' style="font-family:verdana;color:red;font-size:14px;background-color:rgb(192,192,192,0.5);"></p></b><b><p id='e1.5' style="font-family:verdana;color:red;font-size:14px;background-color:rgb(192,192,192,0.5);"></p></b>
+                    <input type="Password" id="Password" name="Password" placeholder="Password" required maxlength="25"><br>
+                    <br><input type="Password" id="Rpassword" name="Rpassword" placeholder="Retype password" required maxlength="25">
+                    <b><p id='e2' style="font-family:verdana;color:red;font-size:14px;background-color:rgb(192,192,192,0.5);"></p></b>
+                    <input type="email" id="email" name="email" placeholder="Email id" required>
+                    <b><p id='e3' style="font-family:verdana;color:red;font-size:14px;background-color:rgb(192,192,192,0.5);"></p></b>
+                    <input type="number" id="age" name="age" placeholder="Age" required min=13 max=120><br><br>
+                    <input type='submit' id='submit'>
+                </form>
+                <h3>Already a Member? <a href="login.html">Log in</a></h3>
+            </div>
+        </div>
+    </body>
+</html>
