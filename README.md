@@ -19,8 +19,24 @@
 * With drill down facility, generates quarterly reports for the financial year
 * Provides security through mandatory user registration and login
 
-#### Login ####
 
 #### Sign Up ####
+![Sign Up Page](SignUp.jpg)
 
 #### Register ####
+![Registration Page](Register.jpg)
+
+#### Login ####
+![Login Page](Login.jpg)
+
+#### Homepage ####
+![Homepage](HomePage.jpg)
+
+#### Monthly Salary Bill ####
+![Monthly Salary Bill for All Employees](MonthlyBill.jpg)
+
+#### PaySlips ####
+![Individual Pay Slips of Employees](PaySlip.jpg)
+
+#### Total Expenditure Bill ####
+![Expenditure Bill for the Financial Year](ExpenditureBill.jpg)
